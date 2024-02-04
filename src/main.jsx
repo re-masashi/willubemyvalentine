@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <div className="mr-auto p-4">Hewwo</div>
         <div className="ml-auto p-4">Settings</div>
       </div>*/}
-      <RouterProvider router={router} />
+      <App/>
     </>
   </React.StrictMode>,
 )
