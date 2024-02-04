@@ -30,7 +30,11 @@ function App() {
         <button 
           className={`font-bold bg-ctp-green p-4 rounded-2xl w-44 h-20 ${(accepted?"bg-ctp-green/75 backdrop-blur":"bg-ctp-green")}`}
           style={{height: `${yesHeight}em`, width: `${yesWidth}em`}}
-          onClick={e=>{setAccepted(true)}}
+          onClick={e=>{
+            setAccepted(true)
+            setYesHeight(6)
+            setYesWidth(12)
+          }}
         >
           {accepted?" I WUV YOUUU SOOO MUCH >_<":"Yes"}
         </button>
