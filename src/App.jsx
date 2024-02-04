@@ -42,7 +42,7 @@ function App() {
               setYesWidth(yesWidth+0.5)
               setNoHeight(noHeight-0.1)
               setNoWidth(noWidth-0.1)
-              setNoText("pwease?")
+              setNoText(beggings[Math.floor(Math.random() * months.length)])
             }
           }>
           {noText}
